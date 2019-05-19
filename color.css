@@ -1,0 +1,40 @@
+html {
+  height: 100vh
+}
+
+.container {
+  background-color: black;
+}
+
+.color-name {
+  height: 24px;
+  width: 30px;
+}
+
+.outputnum {
+  height: 24px;
+  width: 40px;
+}
+
+.color-name, .outputnum {
+  display: inline-block;
+  border: 1px black solid;
+  text-align: center;
+}
+
+.red .color-name, .red .outputnum {
+  background-color: red;
+}
+
+.green .color-name,  .green .outputnum{
+  background-color: green;
+}
+
+.blue .color-name, .blue .outputnum {
+  background-color: blue;
+}
+
+.hex {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4)
+}
